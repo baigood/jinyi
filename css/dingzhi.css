@@ -1,0 +1,171 @@
+section{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+}
+.top{
+	width: 100%;
+	height: 2.8rem;
+}
+.top .topback{
+	width: 100%;
+	height: 0.58rem;
+}
+.top .topback span{
+	display: block;
+	width: 0.58rem;
+	height: 0.58rem;
+	text-align: center;
+	line-height: 0.68rem;
+	font-size: 0.42rem;
+}
+.top .title{
+	width: 100%;
+	font-size: 0.3rem;
+	font-weight: bold;
+}
+.top .title .pirce{
+	color:#ff0700;
+	font-size: 0.4rem;
+	margin-left: 0.2rem;
+}
+.top .share{
+	position: fixed;
+	right: 0;
+	font-size: 0.42rem;
+	top: 1.66rem;
+	width: 0.54rem;
+	height: 0.54rem;
+	text-align: center;
+	line-height: 0.54rem;
+	z-index: 2;
+}
+.top .detail{
+	display: block;
+	width: 0.54rem;
+	font-size: 0.24rem;
+	border: 1px solid #cacaca;
+	text-align: center;
+	border-right: none;
+	position: fixed;
+	right: 0;
+	top: 2.2rem;
+	border-radius: 6px;
+	padding: 0.05rem 0;
+	z-index: 2;
+	background: #fff;
+}
+.webgl{
+	width: 100%;
+	flex: 1;
+	-webkit-flex: 1;
+	background: #000;
+}
+.bottom{
+	width: 100%;
+	height: 3rem;
+}
+.bottom .change{
+	width: 100%;
+	height: 2.3rem;
+	filter:alpha(opacity=0); 
+	-moz-opacity:0; 
+	-khtml-opacity:0; 
+	opacity: 0; 
+	
+}
+.bottom .change div{
+	width: 100%;
+}
+.bottom .change div{
+	overflow-y: hidden;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch; /* ios5+ */
+}
+.bottom .change p{
+	height: 100%;
+}
+.bottom .change .first {
+	height: 0.74rem;
+	border-top: 1px solid #cacaca;
+}
+.bottom .change .second{
+	height: 0.55rem;
+	
+}
+.bottom .change .third{
+	height: 1rem;
+	padding: 0 0.2rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.bottom .change .first span{
+	float: left;
+	display:block;
+	height: 0.74rem;
+	line-height: 0.64rem;
+	padding: 0 0.36rem;
+	
+}
+.bottom .change .second span{
+	float: left;
+	display:block;
+	height: 0.55rem;
+	line-height: 0.55rem;
+	padding: 0 0.3rem;
+}
+.bottom .change .third span{
+	float: left;
+	display:block;
+	height: 0.5rem;
+	margin: 0.25rem 0;
+	line-height: 0.5rem;
+	padding: 0 0.3rem;
+	margin-right: 0.2rem;
+	border: 1px solid #fff;
+}
+.bottom .change .first .active{
+	color: #fea88a;
+}
+.bottom .change .second .active{
+	background: #e9e9e9;
+}
+.bottom .change .third .active{
+	border: 1px solid #fea88a;
+	color: #fea88a;
+}
+.bottom .button{
+	width: 100%;
+	height: 0.7rem;
+	position: relative;
+}
+.bottom .button span{
+	display: block;
+	width: 0.57rem;
+	height: 0.57rem;
+	border-radius: 50%;
+	background: #fff;
+	border: 1px solid #cacaca;
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -0.29rem;
+	font-size: 12px;
+	text-align: center;
+	line-height: 0.57rem;
+	color: #7d7d7d;
+}
+.bottom .button .cancel{
+	z-index: 2;
+	font-size: 0.32rem;
+}
+.bottom .button .confirm{
+	z-index: 2;
+	font-size: 0.32rem;
+}
+.bottom .button .Customized{
+	z-index: 3;
+}

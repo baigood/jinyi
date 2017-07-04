@@ -1,0 +1,43 @@
+section{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 1.36rem 0.36rem 0 0.36rem;
+}
+section ul {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+section ul li{
+	height: auto;
+	overflow: hidden;
+	border-bottom: 1px solid #eee;
+}
+section ul li dl{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding-right: 0.36rem;
+	width: 50%;
+	float: left;
+	border-right: 1px solid #dfdfdf;
+}
+section ul li dl:nth-of-type(even){
+	border-right: none;
+	padding-right: 0;
+	padding-left: 0.36rem;
+}
+section ul li:last-child{
+	border-bottom: none;
+}
+section ul li dl dt{
+	width: 100%;
+	height: 3.3rem;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+section ul li dl dd{
+	width: 100%;
+	height: 0.9rem;
+	font-size: 0.24rem;
+	font-weight: bold;
+}

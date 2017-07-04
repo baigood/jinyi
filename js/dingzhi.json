@@ -1,0 +1,117 @@
+{
+	"content": [
+		{
+			"first_id": 1,
+			"first_value": "字体",
+			"first_arr": [
+				{
+					"second_id": 11,
+					"second_value": "中文",
+					"second_arr": [
+						{
+							"third_id": 121,
+							"third_value": "字体一"
+						}, {
+							"third_id": 121,
+							"third_value": "字体一"
+						}
+					]
+				}, {
+					"second_id": 12,
+					"second_value": "英文",
+					"second_arr": [
+						{
+							"third_id": 121,
+							"third_value": "字体一"
+						}, {
+							"third_id": 121,
+							"third_value": "字体一"
+						}, {
+							"third_id": 121,
+							"third_value": "字体一"
+						}, {
+							"third_id": 121,
+							"third_value": "字体一"
+						}, {
+							"third_id": 121,
+							"third_value": "字体一"
+						}
+					]
+				}, {
+					"second_id": 13,
+					"second_value": "繁体",
+					"second_arr": [
+						{
+							"third_id": 131,
+							"third_value": "字体一"
+						}, {
+							"third_id": 131,
+							"third_value": "字体一"
+						}, {
+							"third_id": 131,
+							"third_value": "字体一"
+						}, {
+							"third_id": 131,
+							"third_value": "字体一"
+						}, {
+							"third_id": 131,
+							"third_value": "字体一"
+						}
+					]
+				}
+			]
+		}, {
+			"first_id": 2,
+			"first_value": "文字",
+			"first_arr": [
+				{
+					"second_id": 21,
+					"second_value": "推荐文字",
+					"second_arr": [
+						{
+							"third_id": 211,
+							"third_value": "Happy Birthday"
+						}, {
+							"third_id": 211,
+							"third_value": "Happy Birthday"
+						}, {
+							"third_id": 211,
+							"third_value": "Happy Birthday"
+						}, {
+							"third_id": 211,
+							"third_value": "Happy Birthday"
+						}, {
+							"third_id": 211,
+							"third_value": "Happy Birthday"
+						}
+					]
+				}, {
+					"second_id": 22,
+					"second_value": "自定义文字",
+					"second_arr": [
+						{
+							"third_id": 211,
+							"third_value": "Happy Birthday todo"
+						}
+					]
+				}
+			]
+		}, {
+			"first_id": 3,
+			"first_value": "材质",
+			"first_arr": []
+		}, {
+			"first_id": 4,
+			"first_value": "皓石",
+			"first_arr": []
+		}, {
+			"first_id": 5,
+			"first_value": "珐琅",
+			"first_arr": []
+		}, {
+			"first_id": 6,
+			"first_value": "同款推荐",
+			"first_arr": []
+		}
+	]
+}
